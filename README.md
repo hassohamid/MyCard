@@ -1,1 +1,1 @@
-<img width="1432" alt="Skärmavbild 2024-11-14 kl  02 06 42" src="https://github.com/user-attachments/assets/7c11c316-7804-47fc-85b7-4ce9912562ec">
+<img width="1425" alt="Skärmavbild 2024-11-14 kl  20 32 05" src="https://github.com/user-attachments/assets/44f2b86c-e4a0-4bb7-885a-f0f8b3230467">
