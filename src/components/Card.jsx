@@ -26,8 +26,8 @@ function Card() {
       </div>
       <div className="cardfooter">
         <h1> Let's Connect. </h1>
-        <a href="https://github.com/hassohamid/" target="_blank">
-          <img className="sociallogo" src="/github-color.svg" />
+        <a href="https://snapchat.com/t/a6UnPB4w" target="_blank">
+          <img className="sociallogo" src="/snapchat.svg" />
         </a>
         <a href="https://www.linkedin.com/in/hassohamid/" target="_blank">
           <img className="sociallogo" src="/linkedin-color.svg" />
