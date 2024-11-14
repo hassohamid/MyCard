@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Square&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+body {
+  background-color: black;
+  /* text-align: center; */
+  color: rgb(255, 255, 255);
+}
+
+.profilepic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.myname {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  font-style: italic;
+  margin: 10px;
+  text-align: center;
+  font-weight: 100;
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.audio {
+  margin: 70px;
+}
+
+.audiobtn {
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  background-color: rgb(0, 238, 255);
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 150px 1px white;
+}
+
+.audiobtn:hover {
+  filter: brightness(120%);
+}
+
+.audiobtn:active {
+  transform: scale(0.95);
+}
+
+.container {
+  max-width: 500px;
+  border-radius: 10px 10px 100px 100px;
+  margin: auto;
+  position: relative;
+}
+
+hr {
+  max-width: 200px;
+  height: 7px;
+  border: none;
+  background-color: rgb(0, 255, 208);
+}
+
+.languagelogo {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.languagelogo:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+  filter: brightness(150%);
+}
+
+.sociallogo {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+
+.sociallogo:hover {
+  filter: brightness(150%);
+}
+
+.musiclogo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  animation: spin 5s linear infinite; /* Spins continuously */
+  animation-play-state: running; /* Default play state, can be paused dynamically */
+}
+
+.cardheader {
+  display: flex;
+  align-items: center;
+}
+
+.cardfooter {
+  text-align: center;
+}
+
+.bottomline {
+  max-width: 475px;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 255, 229),
+    rgb(255, 0, 255)
+  );
+  height: 1px;
+}
+
+.job {
+  font-size: 2rem;
+  font-weight: 1;
+  text-align: center;
+
+  color: aquamarine;
+}
+
+.musiclogo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Spinning animation */
+.musiclogo.spinning {
+  animation: spin 5s linear infinite; /* Spins continuously */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); /* Starting point */
+  }
+  100% {
+    transform: rotate(360deg); /* Ending point */
+  }
+}
